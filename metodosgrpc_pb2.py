@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='metodosgrpc.proto',
   package='',
   syntax='proto3',
-  serialized_pb=_b('\n\x11metodosgrpc.proto\"\x1f\n\x0eRespostaString\x12\r\n\x05saida\x18\x01 \x01(\t\"\x07\n\x05\x45mpty\"\x1d\n\x0cRespostaLong\x12\r\n\x05saida\x18\x01 \x01(\x03\"\x1a\n\x08\x63omplexo\x12\x0e\n\x06objeto\x18\x01 \x01(\x0c\"\x1f\n\rSaidaComplexo\x12\x0e\n\x06objeto\x18\x01 \x01(\x0c\"\x16\n\x05vetor\x12\r\n\x05vetor\x18\x01 \x01(\x0c\"\x1b\n\nSaidaVetor\x12\r\n\x05vetor\x18\x01 \x01(\x0c\"\x18\n\x06umLong\x12\x0e\n\x06param1\x18\x01 \x01(\x03\"\x1a\n\x08umString\x12\x0e\n\x06param1\x18\x01 \x01(\t\"\x8a\x01\n\x08oitoLong\x12\x0e\n\x06param1\x18\x01 \x01(\x03\x12\x0e\n\x06param2\x18\x02 \x01(\x03\x12\x0e\n\x06param3\x18\x03 \x01(\x03\x12\x0e\n\x06param4\x18\x04 \x01(\x03\x12\x0e\n\x06param5\x18\x05 \x01(\x03\x12\x0e\n\x06param6\x18\x06 \x01(\x03\x12\x0e\n\x06param7\x18\x07 \x01(\x03\x12\x0e\n\x06param8\x18\x08 \x01(\x03\"\x8c\x01\n\noitoString\x12\x0e\n\x06param1\x18\x01 \x01(\t\x12\x0e\n\x06param2\x18\x02 \x01(\t\x12\x0e\n\x06param3\x18\x03 \x01(\t\x12\x0e\n\x06param4\x18\x04 \x01(\t\x12\x0e\n\x06param5\x18\x05 \x01(\t\x12\x0e\n\x06param6\x18\x06 \x01(\t\x12\x0e\n\x06param7\x18\x07 \x01(\t\x12\x0e\n\x06param8\x18\x08 \x01(\t\"\x98\x02\n\x0f\x64\x65zesseisString\x12\x0e\n\x06param1\x18\x01 \x01(\t\x12\x0e\n\x06param2\x18\x02 \x01(\t\x12\x0e\n\x06param3\x18\x03 \x01(\t\x12\x0e\n\x06param4\x18\x04 \x01(\t\x12\x0e\n\x06param5\x18\x05 \x01(\t\x12\x0e\n\x06param6\x18\x06 \x01(\t\x12\x0e\n\x06param7\x18\x07 \x01(\t\x12\x0e\n\x06param8\x18\x08 \x01(\t\x12\x0e\n\x06param9\x18\t \x01(\t\x12\x0f\n\x07param10\x18\n \x01(\t\x12\x0f\n\x07param11\x18\x0b \x01(\t\x12\x0f\n\x07param12\x18\x0c \x01(\t\x12\x0f\n\x07param13\x18\r \x01(\t\x12\x0f\n\x07param14\x18\x0e \x01(\t\x12\x0f\n\x07param15\x18\x0f \x01(\t\x12\x0f\n\x07param16\x18\x10 \x01(\t2\xaf\x03\n\x0bMetodosDSID\x12\x1e\n\nMetodoVoid\x12\x06.Empty\x1a\x06.Empty\"\x00\x12\x1f\n\x0bMetodoTeste\x12\x06.Empty\x1a\x06.Empty\"\x00\x12\x31\n\x15MetodoUmParametroLong\x12\x07.umLong\x1a\r.RespostaLong\"\x00\x12,\n\x0eMetodoOitoLong\x12\t.oitoLong\x1a\r.RespostaLong\"\x00\x12-\n\x0eMetodoComplexo\x12\t.complexo\x1a\x0e.SaidaComplexo\"\x00\x12\x37\n\x17MetodoUmParametroString\x12\t.umString\x1a\x0f.RespostaString\"\x00\x12\x32\n\x10MetodoOitoString\x12\x0b.oitoString\x1a\x0f.RespostaString\"\x00\x12<\n\x15MetododezesseisString\x12\x10.dezesseisString\x1a\x0f.RespostaString\"\x00\x12$\n\x0bMetodoVetor\x12\x06.vetor\x1a\x0b.SaidaVetor\"\x00\x62\x06proto3')
+  serialized_pb=_b('\n\x11metodosgrpc.proto\"\x1f\n\x0eRespostaString\x12\r\n\x05saida\x18\x01 \x01(\t\"\x07\n\x05\x45mpty\"\x1d\n\x0cRespostaLong\x12\r\n\x05saida\x18\x01 \x01(\x03\"\x1a\n\x08\x43omplexo\x12\x0e\n\x06objeto\x18\x01 \x01(\x0c\"\x1f\n\rSaidaComplexo\x12\x0e\n\x06objeto\x18\x01 \x01(\x0c\"\x16\n\x05Vetor\x12\r\n\x05vetor\x18\x01 \x01(\x0c\"\x1b\n\nSaidaVetor\x12\r\n\x05vetor\x18\x01 \x01(\x0c\"\x18\n\x06UmLong\x12\x0e\n\x06param1\x18\x01 \x01(\x03\"\x1a\n\x08UmString\x12\x0e\n\x06param1\x18\x01 \x01(\t\"\x8a\x01\n\x08OitoLong\x12\x0e\n\x06param1\x18\x01 \x01(\x03\x12\x0e\n\x06param2\x18\x02 \x01(\x03\x12\x0e\n\x06param3\x18\x03 \x01(\x03\x12\x0e\n\x06param4\x18\x04 \x01(\x03\x12\x0e\n\x06param5\x18\x05 \x01(\x03\x12\x0e\n\x06param6\x18\x06 \x01(\x03\x12\x0e\n\x06param7\x18\x07 \x01(\x03\x12\x0e\n\x06param8\x18\x08 \x01(\x03\"\x8c\x01\n\nOitoString\x12\x0e\n\x06param1\x18\x01 \x01(\t\x12\x0e\n\x06param2\x18\x02 \x01(\t\x12\x0e\n\x06param3\x18\x03 \x01(\t\x12\x0e\n\x06param4\x18\x04 \x01(\t\x12\x0e\n\x06param5\x18\x05 \x01(\t\x12\x0e\n\x06param6\x18\x06 \x01(\t\x12\x0e\n\x06param7\x18\x07 \x01(\t\x12\x0e\n\x06param8\x18\x08 \x01(\t\"\x98\x02\n\x0f\x44\x65zesseisString\x12\x0e\n\x06param1\x18\x01 \x01(\t\x12\x0e\n\x06param2\x18\x02 \x01(\t\x12\x0e\n\x06param3\x18\x03 \x01(\t\x12\x0e\n\x06param4\x18\x04 \x01(\t\x12\x0e\n\x06param5\x18\x05 \x01(\t\x12\x0e\n\x06param6\x18\x06 \x01(\t\x12\x0e\n\x06param7\x18\x07 \x01(\t\x12\x0e\n\x06param8\x18\x08 \x01(\t\x12\x0e\n\x06param9\x18\t \x01(\t\x12\x0f\n\x07param10\x18\n \x01(\t\x12\x0f\n\x07param11\x18\x0b \x01(\t\x12\x0f\n\x07param12\x18\x0c \x01(\t\x12\x0f\n\x07param13\x18\r \x01(\t\x12\x0f\n\x07param14\x18\x0e \x01(\t\x12\x0f\n\x07param15\x18\x0f \x01(\t\x12\x0f\n\x07param16\x18\x10 \x01(\t2\xaf\x03\n\x0bMetodosDSID\x12\x1e\n\nMetodoVoid\x12\x06.Empty\x1a\x06.Empty\"\x00\x12\x1f\n\x0bMetodoTeste\x12\x06.Empty\x1a\x06.Empty\"\x00\x12\x31\n\x15MetodoUmParametroLong\x12\x07.UmLong\x1a\r.RespostaLong\"\x00\x12,\n\x0eMetodoOitoLong\x12\t.OitoLong\x1a\r.RespostaLong\"\x00\x12-\n\x0eMetodoComplexo\x12\t.Complexo\x1a\x0e.SaidaComplexo\"\x00\x12\x37\n\x17MetodoUmParametroString\x12\t.UmString\x1a\x0f.RespostaString\"\x00\x12\x32\n\x10MetodoOitoString\x12\x0b.OitoString\x1a\x0f.RespostaString\"\x00\x12<\n\x15MetododezesseisString\x12\x10.DezesseisString\x1a\x0f.RespostaString\"\x00\x12$\n\x0bMetodoVetor\x12\x06.Vetor\x1a\x0b.SaidaVetor\"\x00\x62\x06proto3')
 )
 
 
@@ -112,14 +112,14 @@ _RESPOSTALONG = _descriptor.Descriptor(
 
 
 _COMPLEXO = _descriptor.Descriptor(
-  name='complexo',
-  full_name='complexo',
+  name='Complexo',
+  full_name='Complexo',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='objeto', full_name='complexo.objeto', index=0,
+      name='objeto', full_name='Complexo.objeto', index=0,
       number=1, type=12, cpp_type=9, label=1,
       has_default_value=False, default_value=_b(""),
       message_type=None, enum_type=None, containing_type=None,
@@ -174,14 +174,14 @@ _SAIDACOMPLEXO = _descriptor.Descriptor(
 
 
 _VETOR = _descriptor.Descriptor(
-  name='vetor',
-  full_name='vetor',
+  name='Vetor',
+  full_name='Vetor',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='vetor', full_name='vetor.vetor', index=0,
+      name='vetor', full_name='Vetor.vetor', index=0,
       number=1, type=12, cpp_type=9, label=1,
       has_default_value=False, default_value=_b(""),
       message_type=None, enum_type=None, containing_type=None,
@@ -236,14 +236,14 @@ _SAIDAVETOR = _descriptor.Descriptor(
 
 
 _UMLONG = _descriptor.Descriptor(
-  name='umLong',
-  full_name='umLong',
+  name='UmLong',
+  full_name='UmLong',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='param1', full_name='umLong.param1', index=0,
+      name='param1', full_name='UmLong.param1', index=0,
       number=1, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -267,14 +267,14 @@ _UMLONG = _descriptor.Descriptor(
 
 
 _UMSTRING = _descriptor.Descriptor(
-  name='umString',
-  full_name='umString',
+  name='UmString',
+  full_name='UmString',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='param1', full_name='umString.param1', index=0,
+      name='param1', full_name='UmString.param1', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -298,63 +298,63 @@ _UMSTRING = _descriptor.Descriptor(
 
 
 _OITOLONG = _descriptor.Descriptor(
-  name='oitoLong',
-  full_name='oitoLong',
+  name='OitoLong',
+  full_name='OitoLong',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='param1', full_name='oitoLong.param1', index=0,
+      name='param1', full_name='OitoLong.param1', index=0,
       number=1, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param2', full_name='oitoLong.param2', index=1,
+      name='param2', full_name='OitoLong.param2', index=1,
       number=2, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param3', full_name='oitoLong.param3', index=2,
+      name='param3', full_name='OitoLong.param3', index=2,
       number=3, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param4', full_name='oitoLong.param4', index=3,
+      name='param4', full_name='OitoLong.param4', index=3,
       number=4, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param5', full_name='oitoLong.param5', index=4,
+      name='param5', full_name='OitoLong.param5', index=4,
       number=5, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param6', full_name='oitoLong.param6', index=5,
+      name='param6', full_name='OitoLong.param6', index=5,
       number=6, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param7', full_name='oitoLong.param7', index=6,
+      name='param7', full_name='OitoLong.param7', index=6,
       number=7, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param8', full_name='oitoLong.param8', index=7,
+      name='param8', full_name='OitoLong.param8', index=7,
       number=8, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -378,63 +378,63 @@ _OITOLONG = _descriptor.Descriptor(
 
 
 _OITOSTRING = _descriptor.Descriptor(
-  name='oitoString',
-  full_name='oitoString',
+  name='OitoString',
+  full_name='OitoString',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='param1', full_name='oitoString.param1', index=0,
+      name='param1', full_name='OitoString.param1', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param2', full_name='oitoString.param2', index=1,
+      name='param2', full_name='OitoString.param2', index=1,
       number=2, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param3', full_name='oitoString.param3', index=2,
+      name='param3', full_name='OitoString.param3', index=2,
       number=3, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param4', full_name='oitoString.param4', index=3,
+      name='param4', full_name='OitoString.param4', index=3,
       number=4, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param5', full_name='oitoString.param5', index=4,
+      name='param5', full_name='OitoString.param5', index=4,
       number=5, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param6', full_name='oitoString.param6', index=5,
+      name='param6', full_name='OitoString.param6', index=5,
       number=6, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param7', full_name='oitoString.param7', index=6,
+      name='param7', full_name='OitoString.param7', index=6,
       number=7, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param8', full_name='oitoString.param8', index=7,
+      name='param8', full_name='OitoString.param8', index=7,
       number=8, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -458,119 +458,119 @@ _OITOSTRING = _descriptor.Descriptor(
 
 
 _DEZESSEISSTRING = _descriptor.Descriptor(
-  name='dezesseisString',
-  full_name='dezesseisString',
+  name='DezesseisString',
+  full_name='DezesseisString',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='param1', full_name='dezesseisString.param1', index=0,
+      name='param1', full_name='DezesseisString.param1', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param2', full_name='dezesseisString.param2', index=1,
+      name='param2', full_name='DezesseisString.param2', index=1,
       number=2, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param3', full_name='dezesseisString.param3', index=2,
+      name='param3', full_name='DezesseisString.param3', index=2,
       number=3, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param4', full_name='dezesseisString.param4', index=3,
+      name='param4', full_name='DezesseisString.param4', index=3,
       number=4, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param5', full_name='dezesseisString.param5', index=4,
+      name='param5', full_name='DezesseisString.param5', index=4,
       number=5, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param6', full_name='dezesseisString.param6', index=5,
+      name='param6', full_name='DezesseisString.param6', index=5,
       number=6, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param7', full_name='dezesseisString.param7', index=6,
+      name='param7', full_name='DezesseisString.param7', index=6,
       number=7, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param8', full_name='dezesseisString.param8', index=7,
+      name='param8', full_name='DezesseisString.param8', index=7,
       number=8, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param9', full_name='dezesseisString.param9', index=8,
+      name='param9', full_name='DezesseisString.param9', index=8,
       number=9, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param10', full_name='dezesseisString.param10', index=9,
+      name='param10', full_name='DezesseisString.param10', index=9,
       number=10, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param11', full_name='dezesseisString.param11', index=10,
+      name='param11', full_name='DezesseisString.param11', index=10,
       number=11, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param12', full_name='dezesseisString.param12', index=11,
+      name='param12', full_name='DezesseisString.param12', index=11,
       number=12, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param13', full_name='dezesseisString.param13', index=12,
+      name='param13', full_name='DezesseisString.param13', index=12,
       number=13, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param14', full_name='dezesseisString.param14', index=13,
+      name='param14', full_name='DezesseisString.param14', index=13,
       number=14, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param15', full_name='dezesseisString.param15', index=14,
+      name='param15', full_name='DezesseisString.param15', index=14,
       number=15, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='param16', full_name='dezesseisString.param16', index=15,
+      name='param16', full_name='DezesseisString.param16', index=15,
       number=16, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -595,15 +595,15 @@ _DEZESSEISSTRING = _descriptor.Descriptor(
 DESCRIPTOR.message_types_by_name['RespostaString'] = _RESPOSTASTRING
 DESCRIPTOR.message_types_by_name['Empty'] = _EMPTY
 DESCRIPTOR.message_types_by_name['RespostaLong'] = _RESPOSTALONG
-DESCRIPTOR.message_types_by_name['complexo'] = _COMPLEXO
+DESCRIPTOR.message_types_by_name['Complexo'] = _COMPLEXO
 DESCRIPTOR.message_types_by_name['SaidaComplexo'] = _SAIDACOMPLEXO
-DESCRIPTOR.message_types_by_name['vetor'] = _VETOR
+DESCRIPTOR.message_types_by_name['Vetor'] = _VETOR
 DESCRIPTOR.message_types_by_name['SaidaVetor'] = _SAIDAVETOR
-DESCRIPTOR.message_types_by_name['umLong'] = _UMLONG
-DESCRIPTOR.message_types_by_name['umString'] = _UMSTRING
-DESCRIPTOR.message_types_by_name['oitoLong'] = _OITOLONG
-DESCRIPTOR.message_types_by_name['oitoString'] = _OITOSTRING
-DESCRIPTOR.message_types_by_name['dezesseisString'] = _DEZESSEISSTRING
+DESCRIPTOR.message_types_by_name['UmLong'] = _UMLONG
+DESCRIPTOR.message_types_by_name['UmString'] = _UMSTRING
+DESCRIPTOR.message_types_by_name['OitoLong'] = _OITOLONG
+DESCRIPTOR.message_types_by_name['OitoString'] = _OITOSTRING
+DESCRIPTOR.message_types_by_name['DezesseisString'] = _DEZESSEISSTRING
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 RespostaString = _reflection.GeneratedProtocolMessageType('RespostaString', (_message.Message,), dict(
@@ -627,12 +627,12 @@ RespostaLong = _reflection.GeneratedProtocolMessageType('RespostaLong', (_messag
   ))
 _sym_db.RegisterMessage(RespostaLong)
 
-complexo = _reflection.GeneratedProtocolMessageType('complexo', (_message.Message,), dict(
+Complexo = _reflection.GeneratedProtocolMessageType('Complexo', (_message.Message,), dict(
   DESCRIPTOR = _COMPLEXO,
   __module__ = 'metodosgrpc_pb2'
-  # @@protoc_insertion_point(class_scope:complexo)
+  # @@protoc_insertion_point(class_scope:Complexo)
   ))
-_sym_db.RegisterMessage(complexo)
+_sym_db.RegisterMessage(Complexo)
 
 SaidaComplexo = _reflection.GeneratedProtocolMessageType('SaidaComplexo', (_message.Message,), dict(
   DESCRIPTOR = _SAIDACOMPLEXO,
@@ -641,12 +641,12 @@ SaidaComplexo = _reflection.GeneratedProtocolMessageType('SaidaComplexo', (_mess
   ))
 _sym_db.RegisterMessage(SaidaComplexo)
 
-vetor = _reflection.GeneratedProtocolMessageType('vetor', (_message.Message,), dict(
+Vetor = _reflection.GeneratedProtocolMessageType('Vetor', (_message.Message,), dict(
   DESCRIPTOR = _VETOR,
   __module__ = 'metodosgrpc_pb2'
-  # @@protoc_insertion_point(class_scope:vetor)
+  # @@protoc_insertion_point(class_scope:Vetor)
   ))
-_sym_db.RegisterMessage(vetor)
+_sym_db.RegisterMessage(Vetor)
 
 SaidaVetor = _reflection.GeneratedProtocolMessageType('SaidaVetor', (_message.Message,), dict(
   DESCRIPTOR = _SAIDAVETOR,
@@ -655,40 +655,40 @@ SaidaVetor = _reflection.GeneratedProtocolMessageType('SaidaVetor', (_message.Me
   ))
 _sym_db.RegisterMessage(SaidaVetor)
 
-umLong = _reflection.GeneratedProtocolMessageType('umLong', (_message.Message,), dict(
+UmLong = _reflection.GeneratedProtocolMessageType('UmLong', (_message.Message,), dict(
   DESCRIPTOR = _UMLONG,
   __module__ = 'metodosgrpc_pb2'
-  # @@protoc_insertion_point(class_scope:umLong)
+  # @@protoc_insertion_point(class_scope:UmLong)
   ))
-_sym_db.RegisterMessage(umLong)
+_sym_db.RegisterMessage(UmLong)
 
-umString = _reflection.GeneratedProtocolMessageType('umString', (_message.Message,), dict(
+UmString = _reflection.GeneratedProtocolMessageType('UmString', (_message.Message,), dict(
   DESCRIPTOR = _UMSTRING,
   __module__ = 'metodosgrpc_pb2'
-  # @@protoc_insertion_point(class_scope:umString)
+  # @@protoc_insertion_point(class_scope:UmString)
   ))
-_sym_db.RegisterMessage(umString)
+_sym_db.RegisterMessage(UmString)
 
-oitoLong = _reflection.GeneratedProtocolMessageType('oitoLong', (_message.Message,), dict(
+OitoLong = _reflection.GeneratedProtocolMessageType('OitoLong', (_message.Message,), dict(
   DESCRIPTOR = _OITOLONG,
   __module__ = 'metodosgrpc_pb2'
-  # @@protoc_insertion_point(class_scope:oitoLong)
+  # @@protoc_insertion_point(class_scope:OitoLong)
   ))
-_sym_db.RegisterMessage(oitoLong)
+_sym_db.RegisterMessage(OitoLong)
 
-oitoString = _reflection.GeneratedProtocolMessageType('oitoString', (_message.Message,), dict(
+OitoString = _reflection.GeneratedProtocolMessageType('OitoString', (_message.Message,), dict(
   DESCRIPTOR = _OITOSTRING,
   __module__ = 'metodosgrpc_pb2'
-  # @@protoc_insertion_point(class_scope:oitoString)
+  # @@protoc_insertion_point(class_scope:OitoString)
   ))
-_sym_db.RegisterMessage(oitoString)
+_sym_db.RegisterMessage(OitoString)
 
-dezesseisString = _reflection.GeneratedProtocolMessageType('dezesseisString', (_message.Message,), dict(
+DezesseisString = _reflection.GeneratedProtocolMessageType('DezesseisString', (_message.Message,), dict(
   DESCRIPTOR = _DEZESSEISSTRING,
   __module__ = 'metodosgrpc_pb2'
-  # @@protoc_insertion_point(class_scope:dezesseisString)
+  # @@protoc_insertion_point(class_scope:DezesseisString)
   ))
-_sym_db.RegisterMessage(dezesseisString)
+_sym_db.RegisterMessage(DezesseisString)
 
 
 

@@ -26,37 +26,37 @@ class MetodosDSIDStub(object):
         )
     self.MetodoUmParametroLong = channel.unary_unary(
         '/MetodosDSID/MetodoUmParametroLong',
-        request_serializer=metodosgrpc__pb2.umLong.SerializeToString,
+        request_serializer=metodosgrpc__pb2.UmLong.SerializeToString,
         response_deserializer=metodosgrpc__pb2.RespostaLong.FromString,
         )
     self.MetodoOitoLong = channel.unary_unary(
         '/MetodosDSID/MetodoOitoLong',
-        request_serializer=metodosgrpc__pb2.oitoLong.SerializeToString,
+        request_serializer=metodosgrpc__pb2.OitoLong.SerializeToString,
         response_deserializer=metodosgrpc__pb2.RespostaLong.FromString,
         )
     self.MetodoComplexo = channel.unary_unary(
         '/MetodosDSID/MetodoComplexo',
-        request_serializer=metodosgrpc__pb2.complexo.SerializeToString,
+        request_serializer=metodosgrpc__pb2.Complexo.SerializeToString,
         response_deserializer=metodosgrpc__pb2.SaidaComplexo.FromString,
         )
     self.MetodoUmParametroString = channel.unary_unary(
         '/MetodosDSID/MetodoUmParametroString',
-        request_serializer=metodosgrpc__pb2.umString.SerializeToString,
+        request_serializer=metodosgrpc__pb2.UmString.SerializeToString,
         response_deserializer=metodosgrpc__pb2.RespostaString.FromString,
         )
     self.MetodoOitoString = channel.unary_unary(
         '/MetodosDSID/MetodoOitoString',
-        request_serializer=metodosgrpc__pb2.oitoString.SerializeToString,
+        request_serializer=metodosgrpc__pb2.OitoString.SerializeToString,
         response_deserializer=metodosgrpc__pb2.RespostaString.FromString,
         )
     self.MetododezesseisString = channel.unary_unary(
         '/MetodosDSID/MetododezesseisString',
-        request_serializer=metodosgrpc__pb2.dezesseisString.SerializeToString,
+        request_serializer=metodosgrpc__pb2.DezesseisString.SerializeToString,
         response_deserializer=metodosgrpc__pb2.RespostaString.FromString,
         )
     self.MetodoVetor = channel.unary_unary(
         '/MetodosDSID/MetodoVetor',
-        request_serializer=metodosgrpc__pb2.vetor.SerializeToString,
+        request_serializer=metodosgrpc__pb2.Vetor.SerializeToString,
         response_deserializer=metodosgrpc__pb2.SaidaVetor.FromString,
         )
 
@@ -143,37 +143,37 @@ def add_MetodosDSIDServicer_to_server(servicer, server):
       ),
       'MetodoUmParametroLong': grpc.unary_unary_rpc_method_handler(
           servicer.MetodoUmParametroLong,
-          request_deserializer=metodosgrpc__pb2.umLong.FromString,
+          request_deserializer=metodosgrpc__pb2.UmLong.FromString,
           response_serializer=metodosgrpc__pb2.RespostaLong.SerializeToString,
       ),
       'MetodoOitoLong': grpc.unary_unary_rpc_method_handler(
           servicer.MetodoOitoLong,
-          request_deserializer=metodosgrpc__pb2.oitoLong.FromString,
+          request_deserializer=metodosgrpc__pb2.OitoLong.FromString,
           response_serializer=metodosgrpc__pb2.RespostaLong.SerializeToString,
       ),
       'MetodoComplexo': grpc.unary_unary_rpc_method_handler(
           servicer.MetodoComplexo,
-          request_deserializer=metodosgrpc__pb2.complexo.FromString,
+          request_deserializer=metodosgrpc__pb2.Complexo.FromString,
           response_serializer=metodosgrpc__pb2.SaidaComplexo.SerializeToString,
       ),
       'MetodoUmParametroString': grpc.unary_unary_rpc_method_handler(
           servicer.MetodoUmParametroString,
-          request_deserializer=metodosgrpc__pb2.umString.FromString,
+          request_deserializer=metodosgrpc__pb2.UmString.FromString,
           response_serializer=metodosgrpc__pb2.RespostaString.SerializeToString,
       ),
       'MetodoOitoString': grpc.unary_unary_rpc_method_handler(
           servicer.MetodoOitoString,
-          request_deserializer=metodosgrpc__pb2.oitoString.FromString,
+          request_deserializer=metodosgrpc__pb2.OitoString.FromString,
           response_serializer=metodosgrpc__pb2.RespostaString.SerializeToString,
       ),
       'MetododezesseisString': grpc.unary_unary_rpc_method_handler(
           servicer.MetododezesseisString,
-          request_deserializer=metodosgrpc__pb2.dezesseisString.FromString,
+          request_deserializer=metodosgrpc__pb2.DezesseisString.FromString,
           response_serializer=metodosgrpc__pb2.RespostaString.SerializeToString,
       ),
       'MetodoVetor': grpc.unary_unary_rpc_method_handler(
           servicer.MetodoVetor,
-          request_deserializer=metodosgrpc__pb2.vetor.FromString,
+          request_deserializer=metodosgrpc__pb2.Vetor.FromString,
           response_serializer=metodosgrpc__pb2.SaidaVetor.SerializeToString,
       ),
   }
