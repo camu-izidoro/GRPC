@@ -1,0 +1,111 @@
+syntax = "proto3";
+
+message RespostaString{
+    string saida = 1;
+}
+    
+message Empty{
+}
+
+message RespostaLong{
+    int64 saida = 1;
+}
+
+message complexo{
+    bytes objeto = 1;
+}
+     
+message SaidaComplexo{
+    bytes objeto = 1;
+}
+
+message vetor{
+    bytes vetor = 1;
+}
+
+ message SaidaVetor{
+    bytes vetor = 1;
+}
+
+message umLong{
+    int64 param1 = 1;
+}
+
+message umString{
+    string param1 = 1;
+}
+message oitoLong{
+        int64 param1 = 1;
+        int64 param2 = 2;
+        int64 param3 = 3;
+        int64 param4 = 4;
+        int64 param5 = 5;
+        int64 param6 = 6;
+        int64 param7 = 7;
+        int64 param8 = 8;
+}
+    
+message oitoString{
+        string param1 = 1;
+        string param2 = 2;
+        string param3 = 3;
+        string param4 = 4;
+        string param5 = 5;
+        string param6 = 6;
+        string param7 = 7;
+        string param8 = 8;
+}
+
+message dezesseisString{
+        string param1 = 1;
+        string param2 = 2;
+        string param3 = 3;
+        string param4 = 4;
+        string param5 = 5;
+        string param6 = 6;
+        string param7 = 7;
+        string param8 = 8;
+        string param9 = 9;
+        string param10 = 10;
+        string param11 = 11;
+        string param12 = 12;
+        string param13 = 13;
+        string param14 = 14;
+        string param15 = 15;
+        string param16 = 16;
+}
+
+service MetodosDSID {
+    rpc MetodoVoid(Empty) returns (Empty){
+        // retorna um metodo vazio
+    }
+
+    rpc MetodoTeste(Empty) returns (Empty){
+    }
+
+    rpc MetodoUmParametroLong(umLong) returns (RespostaLong){
+        // retorna um metodo vazio
+    }
+
+    rpc MetodoOitoLong(oitoLong) returns (RespostaLong){
+        // retorna um metodo vazio
+    }
+
+    rpc MetodoComplexo(complexo) returns (SaidaComplexo){
+        // retorna um metodo vazio
+    }
+
+    rpc MetodoUmParametroString(umString) returns (RespostaString){
+        // retorna um metodo vazio
+    }
+
+    rpc MetodoOitoString(oitoString) returns (RespostaString){
+        // retorna um metodo vazio
+    }
+    rpc MetododezesseisString(dezesseisString) returns (RespostaString){
+        // retorna um metodo vazio
+    }
+    rpc MetodoVetor(vetor) returns (SaidaVetor){
+        // retorna um metodo vazio
+    }
+}   
