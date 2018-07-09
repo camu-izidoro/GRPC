@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='metodosgrpc.proto',
   package='',
   syntax='proto3',
-  serialized_pb=_b('\n\x11metodosgrpc.proto\"\x1f\n\x0eRespostaString\x12\r\n\x05saida\x18\x01 \x01(\t\"\x07\n\x05\x45mpty\"\x1d\n\x0cRespostaLong\x12\r\n\x05saida\x18\x01 \x01(\x03\"\x1a\n\x08\x43omplexo\x12\x0e\n\x06objeto\x18\x01 \x01(\x0c\"\x1f\n\rSaidaComplexo\x12\x0e\n\x06objeto\x18\x01 \x01(\x0c\"\x16\n\x05Vetor\x12\r\n\x05vetor\x18\x01 \x01(\x0c\"\x1b\n\nSaidaVetor\x12\r\n\x05vetor\x18\x01 \x01(\x0c\"\x18\n\x06UmLong\x12\x0e\n\x06param1\x18\x01 \x01(\x03\"\x1a\n\x08UmString\x12\x0e\n\x06param1\x18\x01 \x01(\t\"\x8a\x01\n\x08OitoLong\x12\x0e\n\x06param1\x18\x01 \x01(\x03\x12\x0e\n\x06param2\x18\x02 \x01(\x03\x12\x0e\n\x06param3\x18\x03 \x01(\x03\x12\x0e\n\x06param4\x18\x04 \x01(\x03\x12\x0e\n\x06param5\x18\x05 \x01(\x03\x12\x0e\n\x06param6\x18\x06 \x01(\x03\x12\x0e\n\x06param7\x18\x07 \x01(\x03\x12\x0e\n\x06param8\x18\x08 \x01(\x03\"\x8c\x01\n\nOitoString\x12\x0e\n\x06param1\x18\x01 \x01(\t\x12\x0e\n\x06param2\x18\x02 \x01(\t\x12\x0e\n\x06param3\x18\x03 \x01(\t\x12\x0e\n\x06param4\x18\x04 \x01(\t\x12\x0e\n\x06param5\x18\x05 \x01(\t\x12\x0e\n\x06param6\x18\x06 \x01(\t\x12\x0e\n\x06param7\x18\x07 \x01(\t\x12\x0e\n\x06param8\x18\x08 \x01(\t\"\x98\x02\n\x0f\x44\x65zesseisString\x12\x0e\n\x06param1\x18\x01 \x01(\t\x12\x0e\n\x06param2\x18\x02 \x01(\t\x12\x0e\n\x06param3\x18\x03 \x01(\t\x12\x0e\n\x06param4\x18\x04 \x01(\t\x12\x0e\n\x06param5\x18\x05 \x01(\t\x12\x0e\n\x06param6\x18\x06 \x01(\t\x12\x0e\n\x06param7\x18\x07 \x01(\t\x12\x0e\n\x06param8\x18\x08 \x01(\t\x12\x0e\n\x06param9\x18\t \x01(\t\x12\x0f\n\x07param10\x18\n \x01(\t\x12\x0f\n\x07param11\x18\x0b \x01(\t\x12\x0f\n\x07param12\x18\x0c \x01(\t\x12\x0f\n\x07param13\x18\r \x01(\t\x12\x0f\n\x07param14\x18\x0e \x01(\t\x12\x0f\n\x07param15\x18\x0f \x01(\t\x12\x0f\n\x07param16\x18\x10 \x01(\t2\xaf\x03\n\x0bMetodosDSID\x12\x1e\n\nMetodoVoid\x12\x06.Empty\x1a\x06.Empty\"\x00\x12\x1f\n\x0bMetodoTeste\x12\x06.Empty\x1a\x06.Empty\"\x00\x12\x31\n\x15MetodoUmParametroLong\x12\x07.UmLong\x1a\r.RespostaLong\"\x00\x12,\n\x0eMetodoOitoLong\x12\t.OitoLong\x1a\r.RespostaLong\"\x00\x12-\n\x0eMetodoComplexo\x12\t.Complexo\x1a\x0e.SaidaComplexo\"\x00\x12\x37\n\x17MetodoUmParametroString\x12\t.UmString\x1a\x0f.RespostaString\"\x00\x12\x32\n\x10MetodoOitoString\x12\x0b.OitoString\x1a\x0f.RespostaString\"\x00\x12<\n\x15MetododezesseisString\x12\x10.DezesseisString\x1a\x0f.RespostaString\"\x00\x12$\n\x0bMetodoVetor\x12\x06.Vetor\x1a\x0b.SaidaVetor\"\x00\x62\x06proto3')
+  serialized_pb=_b('\n\x11metodosgrpc.proto\"\x1f\n\x0eRespostaString\x12\r\n\x05saida\x18\x01 \x01(\t\"\x07\n\x05\x45mpty\"\x1d\n\x0cRespostaLong\x12\r\n\x05saida\x18\x01 \x01(\x03\"\x15\n\x06Objeto\x12\x0b\n\x03obj\x18\x01 \x01(\t\"#\n\x08\x43omplexo\x12\x17\n\x06objeto\x18\x01 \x01(\x0b\x32\x07.Objeto\"(\n\rSaidaComplexo\x12\x17\n\x06objeto\x18\x01 \x01(\x0b\x32\x07.Objeto\"\x16\n\x05Vetor\x12\r\n\x05vetor\x18\x01 \x01(\x0c\"\x1b\n\nSaidaVetor\x12\r\n\x05vetor\x18\x01 \x01(\x0c\"\x18\n\x06UmLong\x12\x0e\n\x06param1\x18\x01 \x01(\x03\"\x1a\n\x08UmString\x12\x0e\n\x06param1\x18\x01 \x01(\t\"\x8a\x01\n\x08OitoLong\x12\x0e\n\x06param1\x18\x01 \x01(\x03\x12\x0e\n\x06param2\x18\x02 \x01(\x03\x12\x0e\n\x06param3\x18\x03 \x01(\x03\x12\x0e\n\x06param4\x18\x04 \x01(\x03\x12\x0e\n\x06param5\x18\x05 \x01(\x03\x12\x0e\n\x06param6\x18\x06 \x01(\x03\x12\x0e\n\x06param7\x18\x07 \x01(\x03\x12\x0e\n\x06param8\x18\x08 \x01(\x03\"\x8c\x01\n\nOitoString\x12\x0e\n\x06param1\x18\x01 \x01(\t\x12\x0e\n\x06param2\x18\x02 \x01(\t\x12\x0e\n\x06param3\x18\x03 \x01(\t\x12\x0e\n\x06param4\x18\x04 \x01(\t\x12\x0e\n\x06param5\x18\x05 \x01(\t\x12\x0e\n\x06param6\x18\x06 \x01(\t\x12\x0e\n\x06param7\x18\x07 \x01(\t\x12\x0e\n\x06param8\x18\x08 \x01(\t\"\x98\x02\n\x0f\x44\x65zesseisString\x12\x0e\n\x06param1\x18\x01 \x01(\t\x12\x0e\n\x06param2\x18\x02 \x01(\t\x12\x0e\n\x06param3\x18\x03 \x01(\t\x12\x0e\n\x06param4\x18\x04 \x01(\t\x12\x0e\n\x06param5\x18\x05 \x01(\t\x12\x0e\n\x06param6\x18\x06 \x01(\t\x12\x0e\n\x06param7\x18\x07 \x01(\t\x12\x0e\n\x06param8\x18\x08 \x01(\t\x12\x0e\n\x06param9\x18\t \x01(\t\x12\x0f\n\x07param10\x18\n \x01(\t\x12\x0f\n\x07param11\x18\x0b \x01(\t\x12\x0f\n\x07param12\x18\x0c \x01(\t\x12\x0f\n\x07param13\x18\r \x01(\t\x12\x0f\n\x07param14\x18\x0e \x01(\t\x12\x0f\n\x07param15\x18\x0f \x01(\t\x12\x0f\n\x07param16\x18\x10 \x01(\t2\xaf\x03\n\x0bMetodosDSID\x12\x1e\n\nMetodoVoid\x12\x06.Empty\x1a\x06.Empty\"\x00\x12\x1f\n\x0bMetodoTeste\x12\x06.Empty\x1a\x06.Empty\"\x00\x12\x31\n\x15MetodoUmParametroLong\x12\x07.UmLong\x1a\r.RespostaLong\"\x00\x12,\n\x0eMetodoOitoLong\x12\t.OitoLong\x1a\r.RespostaLong\"\x00\x12-\n\x0eMetodoComplexo\x12\t.Complexo\x1a\x0e.SaidaComplexo\"\x00\x12\x37\n\x17MetodoUmParametroString\x12\t.UmString\x1a\x0f.RespostaString\"\x00\x12\x32\n\x10MetodoOitoString\x12\x0b.OitoString\x1a\x0f.RespostaString\"\x00\x12<\n\x15MetododezesseisString\x12\x10.DezesseisString\x1a\x0f.RespostaString\"\x00\x12$\n\x0bMetodoVetor\x12\x06.Vetor\x1a\x0b.SaidaVetor\"\x00\x62\x06proto3')
 )
 
 
@@ -111,17 +111,17 @@ _RESPOSTALONG = _descriptor.Descriptor(
 )
 
 
-_COMPLEXO = _descriptor.Descriptor(
-  name='Complexo',
-  full_name='Complexo',
+_OBJETO = _descriptor.Descriptor(
+  name='Objeto',
+  full_name='Objeto',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='objeto', full_name='Complexo.objeto', index=0,
-      number=1, type=12, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b(""),
+      name='obj', full_name='Objeto.obj', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
@@ -138,21 +138,21 @@ _COMPLEXO = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=94,
-  serialized_end=120,
+  serialized_end=115,
 )
 
 
-_SAIDACOMPLEXO = _descriptor.Descriptor(
-  name='SaidaComplexo',
-  full_name='SaidaComplexo',
+_COMPLEXO = _descriptor.Descriptor(
+  name='Complexo',
+  full_name='Complexo',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='objeto', full_name='SaidaComplexo.objeto', index=0,
-      number=1, type=12, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b(""),
+      name='objeto', full_name='Complexo.objeto', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None, file=DESCRIPTOR),
@@ -168,8 +168,39 @@ _SAIDACOMPLEXO = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=122,
-  serialized_end=153,
+  serialized_start=117,
+  serialized_end=152,
+)
+
+
+_SAIDACOMPLEXO = _descriptor.Descriptor(
+  name='SaidaComplexo',
+  full_name='SaidaComplexo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='objeto', full_name='SaidaComplexo.objeto', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=154,
+  serialized_end=194,
 )
 
 
@@ -199,8 +230,8 @@ _VETOR = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=155,
-  serialized_end=177,
+  serialized_start=196,
+  serialized_end=218,
 )
 
 
@@ -230,8 +261,8 @@ _SAIDAVETOR = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=179,
-  serialized_end=206,
+  serialized_start=220,
+  serialized_end=247,
 )
 
 
@@ -261,8 +292,8 @@ _UMLONG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=208,
-  serialized_end=232,
+  serialized_start=249,
+  serialized_end=273,
 )
 
 
@@ -292,8 +323,8 @@ _UMSTRING = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=234,
-  serialized_end=260,
+  serialized_start=275,
+  serialized_end=301,
 )
 
 
@@ -372,8 +403,8 @@ _OITOLONG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=263,
-  serialized_end=401,
+  serialized_start=304,
+  serialized_end=442,
 )
 
 
@@ -452,8 +483,8 @@ _OITOSTRING = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=404,
-  serialized_end=544,
+  serialized_start=445,
+  serialized_end=585,
 )
 
 
@@ -588,13 +619,16 @@ _DEZESSEISSTRING = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=547,
-  serialized_end=827,
+  serialized_start=588,
+  serialized_end=868,
 )
 
+_COMPLEXO.fields_by_name['objeto'].message_type = _OBJETO
+_SAIDACOMPLEXO.fields_by_name['objeto'].message_type = _OBJETO
 DESCRIPTOR.message_types_by_name['RespostaString'] = _RESPOSTASTRING
 DESCRIPTOR.message_types_by_name['Empty'] = _EMPTY
 DESCRIPTOR.message_types_by_name['RespostaLong'] = _RESPOSTALONG
+DESCRIPTOR.message_types_by_name['Objeto'] = _OBJETO
 DESCRIPTOR.message_types_by_name['Complexo'] = _COMPLEXO
 DESCRIPTOR.message_types_by_name['SaidaComplexo'] = _SAIDACOMPLEXO
 DESCRIPTOR.message_types_by_name['Vetor'] = _VETOR
@@ -626,6 +660,13 @@ RespostaLong = _reflection.GeneratedProtocolMessageType('RespostaLong', (_messag
   # @@protoc_insertion_point(class_scope:RespostaLong)
   ))
 _sym_db.RegisterMessage(RespostaLong)
+
+Objeto = _reflection.GeneratedProtocolMessageType('Objeto', (_message.Message,), dict(
+  DESCRIPTOR = _OBJETO,
+  __module__ = 'metodosgrpc_pb2'
+  # @@protoc_insertion_point(class_scope:Objeto)
+  ))
+_sym_db.RegisterMessage(Objeto)
 
 Complexo = _reflection.GeneratedProtocolMessageType('Complexo', (_message.Message,), dict(
   DESCRIPTOR = _COMPLEXO,
@@ -698,8 +739,8 @@ _METODOSDSID = _descriptor.ServiceDescriptor(
   file=DESCRIPTOR,
   index=0,
   options=None,
-  serialized_start=830,
-  serialized_end=1261,
+  serialized_start=871,
+  serialized_end=1302,
   methods=[
   _descriptor.MethodDescriptor(
     name='MetodoVoid',

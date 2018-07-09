@@ -46,10 +46,6 @@ def dezeseis_string(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p):
             i = i+x+z
     return a
     
-class Node:
-    def __init__(self):
-        self.__atributo = 1
-    
 def retornaNo(obj):
     i=0
     for x in range(0, 1000):

@@ -1,0 +1,43 @@
+missing module named 'win32com.gen_py' - imported by win32com, c:\users\camil\appdata\local\programs\python\python36-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_win32comgenpy.py
+missing module named pyimod03_importers - imported by c:\users\camil\appdata\local\programs\python\python36-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_pkgres.py
+missing module named 'multiprocessing.forking' - imported by c:\users\camil\appdata\local\programs\python\python36-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_multiprocessing.py
+missing module named resource - imported by posix, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named posix - imported by os, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named _posixsubprocess - imported by subprocess, multiprocessing.util, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named _winreg - imported by platform, C:\Users\camil\Desktop\GRPC_PYTHON\client.py, pkg_resources._vendor.appdirs
+missing module named java - imported by platform, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named 'java.lang' - imported by platform, C:\Users\camil\Desktop\GRPC_PYTHON\client.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named pkg_resources.extern.six - imported by pkg_resources.extern, pkg_resources, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named 'pkg_resources.extern.six.moves' - imported by pkg_resources, C:\Users\camil\Desktop\GRPC_PYTHON\client.py, pkg_resources._vendor.packaging.requirements
+missing module named pkg_resources.extern.appdirs - imported by pkg_resources.extern, pkg_resources, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named pkg_resources.extern.packaging - imported by pkg_resources.extern, pkg_resources, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, distutils.util, C:\Users\camil\Desktop\GRPC_PYTHON\client.py, netrc, getpass
+missing module named multiprocessing.AuthenticationError - imported by multiprocessing, multiprocessing.connection, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named multiprocessing.BufferTooShort - imported by multiprocessing, multiprocessing.connection, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named _scproxy - imported by urllib.request
+missing module named org - imported by pickle, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named readline - imported by cmd, code, pdb, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named termios - imported by tty, C:\Users\camil\Desktop\GRPC_PYTHON\client.py, getpass
+missing module named grp - imported by shutil, tarfile, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named 'org.python' - imported by copy, C:\Users\camil\Desktop\GRPC_PYTHON\client.py, xml.sax
+missing module named multiprocessing.get_context - imported by multiprocessing, multiprocessing.pool, multiprocessing.managers, multiprocessing.sharedctypes, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named multiprocessing.TimeoutError - imported by multiprocessing, multiprocessing.pool, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named _dummy_threading - imported by dummy_threading, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named multiprocessing.get_start_method - imported by multiprocessing, multiprocessing.spawn, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named multiprocessing.set_start_method - imported by multiprocessing, multiprocessing.spawn, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named multiprocessing.SimpleQueue - imported by multiprocessing, concurrent.futures.process
+missing module named __main__ - imported by pkg_resources, C:\Users\camil\Desktop\GRPC_PYTHON\client.py
+missing module named StringIO - imported by six, pkg_resources._vendor.six
+missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.markers, pkg_resources._vendor.packaging.requirements
+missing module named __builtin__ - imported by pkg_resources._vendor.pyparsing
+missing module named ordereddict - imported by pkg_resources._vendor.pyparsing
+missing module named 'com.sun' - imported by pkg_resources._vendor.appdirs
+missing module named com - imported by pkg_resources._vendor.appdirs
+missing module named google.protobuf.enable_deterministic_proto_serialization - imported by google.protobuf, google.protobuf.internal.api_implementation
+missing module named google.protobuf.internal.use_pure_python - imported by google.protobuf.internal, google.protobuf.internal.api_implementation
+missing module named google.protobuf._use_fast_cpp_protos - imported by google.protobuf, google.protobuf.internal.api_implementation
+missing module named grpc_reflection - imported by grpc
+missing module named grpc_health - imported by grpc

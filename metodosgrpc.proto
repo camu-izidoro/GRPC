@@ -1,5 +1,18 @@
 syntax = "proto3";
 
+
+service MetodosDSID {
+    rpc MetodoVoid(Empty) returns (Empty){}
+    rpc MetodoTeste(Empty) returns (Empty){}
+    rpc MetodoUmParametroLong(UmLong) returns (RespostaLong){}
+    rpc MetodoOitoLong(OitoLong) returns (RespostaLong){}
+    rpc MetodoComplexo(Complexo) returns (SaidaComplexo){}
+    rpc MetodoUmParametroString(UmString) returns (RespostaString){}
+    rpc MetodoOitoString(OitoString) returns (RespostaString){}
+    rpc MetododezesseisString(DezesseisString) returns (RespostaString){}
+    rpc MetodoVetor(Vetor) returns (SaidaVetor){}
+} 
+
 message RespostaString{
     string saida = 1;
 }
@@ -11,12 +24,16 @@ message RespostaLong{
     int64 saida = 1;
 }
 
+message Objeto{
+    string obj=1;
+}
+
 message Complexo{
-    bytes objeto = 1;
+    Objeto objeto= 1;
 }
      
 message SaidaComplexo{
-    bytes objeto = 1;
+    Objeto objeto= 1;
 }
 
 message Vetor{
@@ -74,38 +91,3 @@ message DezesseisString{
         string param15 = 15;
         string param16 = 16;
 }
-
-service MetodosDSID {
-    rpc MetodoVoid(Empty) returns (Empty){
-        // retorna um metodo vazio
-    }
-
-    rpc MetodoTeste(Empty) returns (Empty){
-    }
-
-    rpc MetodoUmParametroLong(UmLong) returns (RespostaLong){
-        // retorna um metodo vazio
-    }
-
-    rpc MetodoOitoLong(OitoLong) returns (RespostaLong){
-        // retorna um metodo vazio
-    }
-
-    rpc MetodoComplexo(Complexo) returns (SaidaComplexo){
-        // retorna um metodo vazio
-    }
-
-    rpc MetodoUmParametroString(UmString) returns (RespostaString){
-        // retorna um metodo vazio
-    }
-
-    rpc MetodoOitoString(OitoString) returns (RespostaString){
-        // retorna um metodo vazio
-    }
-    rpc MetododezesseisString(DezesseisString) returns (RespostaString){
-        // retorna um metodo vazio
-    }
-    rpc MetodoVetor(Vetor) returns (SaidaVetor){
-        // retorna um metodo vazio
-    }
-}   

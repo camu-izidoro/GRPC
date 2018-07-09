@@ -16,39 +16,48 @@ class MetodosDSIDServicer(metodosgrpc_pb2_grpc.MetodosDSIDServicer):
     # calculator.square_root is exposed here
     # the request and response are of the data type
     # calculator_pb2.Number
-    def RetornaVoid(self, request, context):
-        metodosgrpc.c_void()
-        return ""
-    def RetornaTeste(self, request, context):
-        metodosgrpc.teste()
-        return ""
-    def Retornalong8param(self, request, context):
-        response = metodosgrpc_pb2.RespostaLong
-        response.value = metodosgrpc.long_8_param(request.a,request.b,request.c,request.d,request.e,request.f,request.g,request.h)
+    def MetodoVoid(self, request, context):
+        i=0
+        for x in range(0, 1000):
+            for z in range(0,1000):
+                i = i+x+z
+        return metodosgrpc_pb2.Empty()
+    def MetodoTeste(self, request, context):
+        i=0
+        for x in range(0, 1000):
+            for z in range(0,1000):
+                i = i+x+z
+        return metodosgrpc_pb2.Empty()
+    def MetodoOitoLong(self, request, context):
+        response = metodosgrpc_pb2.RespostaLong()
+        response.saida = metodosgrpc.long_8_param(request.param1,request.param2,request.param3,request.param4,request.param5,request.param6,request.param7,request.param8)
         return response
-    def retorna1long(self, request, context):
-        response = metodosgrpc_pb2.RespostaLong
-        response.value = metodosgrpc.long_1_param(request.a)
+    def MetodoUmParametroLong(self, request, context):
+        response = metodosgrpc_pb2.RespostaLong()
+        response.saida = metodosgrpc.long_1_param(request.param1)
         return response
-    def retorna1String(self, request, context):
-        response = metodosgrpc_pb2.RespostaString
-        response.value = metodosgrpc.uma_string(request.a)
+    def MetodoUmParametroString(self, request, context):
+        response = metodosgrpc_pb2.RespostaString()
+        response.saida = metodosgrpc.uma_string(request.param1)
         return response
-    def retorna8string(self, request, context):
-        response = metodosgrpc_pb2.RespostaString
-        response.value = metodosgrpc.oito_string(request.a,request.b,request.c,request.d,request.e,request.f,request.g,request.h)
+    def MetodoOitoString(self, request, context):
+        response = metodosgrpc_pb2.RespostaString()
+        response.saida = metodosgrpc.oito_string(request.param1,request.param2,request.param3,request.param4,request.param5,request.param6,request.param7,request.param8)
         return response
-    def retorna16string(self, request, context):
-        response = metodosgrpc_pb2.RespostaString
-        response.value =  response.value = metodosgrpc.dezeseis_string(request.a,request.b,request.c,request.d,request.e,request.f,request.g,request.h,request.i,request.j,request.k,request.l,request.m,request.n,request.o,request.p)
+    def MetododezesseisString(self, request, context):
+        response = metodosgrpc_pb2.RespostaString()
+        response.saida =metodosgrpc.dezeseis_string(request.param1,request.param2,request.param3,request.param4,request.param5,request.param6,request.param7,request.param8,request.param9,request.param10,request.param11,request.param12,request.param13,request.param14,request.param15,request.param16)
         return response
-    def retornaNo(self, request, context):
-        response = metodosgrpc_pb2.SaidaComplexo
-        response.value = metodosgrpc.retornaNo(request.a)
+    def MetodoComplexo(self, request, context):
+        response = metodosgrpc_pb2.SaidaComplexo()
+        i=0
+        for x in range(0, 1000):
+            for z in range(0,1000):
+                i = i+x+z
         return response
-    def Vetor(self, request, context):
-        response = metodosgrpc_pb2.SaidaVetor
-        response.value = metodosgrpc.vetor(request.a)
+    def MetodoVetor(self, request, context):
+        response = metodosgrpc_pb2.SaidaVetor()
+        response.vetor = metodosgrpc.vetor(request.vetor)
         return response
 # create a gRPC server
 server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
@@ -59,8 +68,8 @@ metodosgrpc_pb2_grpc.add_MetodosDSIDServicer_to_server(
         MetodosDSIDServicer(), server)
 
 # listen on port 50051
-print('Starting server. Listening on port 7070.')
-server.add_insecure_port('[::]:7070')
+print('Starting server. Listening on port 50051.')
+server.add_insecure_port('[::]:50051')
 server.start()
 
 # since server.start() will not block,
