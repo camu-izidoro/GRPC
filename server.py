@@ -68,8 +68,8 @@ metodosgrpc_pb2_grpc.add_MetodosDSIDServicer_to_server(
         MetodosDSIDServicer(), server)
 
 # listen on port 50051
-print('Starting server. Listening on port 50051.')
-server.add_insecure_port('[::]:50051')
+print('Starting server. Listening on port 7070.')
+server.add_insecure_port('[::]:7070')
 server.start()
 
 # since server.start() will not block,

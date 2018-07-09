@@ -7,7 +7,7 @@ import metodosgrpc_pb2
 import metodosgrpc_pb2_grpc
 
 ini = time.time()
-channel = grpc.insecure_channel('192.168.0.17:50051')
+channel = grpc.insecure_channel('192.168.0.17:7070')
 stub = metodosgrpc_pb2_grpc.MetodosDSIDStub(channel)
 stub.MetodoTeste(metodosgrpc_pb2.Empty())
 fim = time.time()
